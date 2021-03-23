@@ -3,7 +3,7 @@
 ## Description
 - This is a webpage . . .
 
-### The User Story for this brief is as follows:
+### The User Story for this project is as follows:
 - An employer would like to view a potential employee's deployed portfolio of work samples so that they can review samples of their work and assess whether they're a good candidate for an open position
 
 ### The codebase meets the following critera for acceptance:
