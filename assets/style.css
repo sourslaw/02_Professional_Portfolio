@@ -1,5 +1,6 @@
 body {
     background-color: #9a8c98;
+    font-family: 'Comfortaa', cursive;
 }
 
 .navbar, .footer {
@@ -13,3 +14,14 @@ body {
 #profileImg {
     filter: grayscale(40%);
 }
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
