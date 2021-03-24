@@ -3,8 +3,16 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
+a.navbar-item:hover {
+    color: white;
+    background-color: transparent;
+    transition: all .5s ease-in-out;
+
+}
+
 #brandName {
     font-size: 2rem;
+    font-weight: bold;
 
 }
 
@@ -24,6 +32,23 @@ body {
     filter: grayscale(40%);
 }
 
+
+/* projects */
+
+#projects h3:hover {
+    cursor: pointer;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+
+#projectsImage:hover {
+    cursor: pointer;
+    border: solid white;
+    transform: scale(1.1);
+    transition: all .9s ease-in-out;
+    transition-timing-function: ease
+}
+
 /* contact buttons */
 
 li {
@@ -31,8 +56,13 @@ li {
 }
 
 li a {
-    color: white;
+    color: #f2f4f3;
     text-align: center;
     padding: 10px;
     text-decoration: none;
+  }
+
+  li a:hover {
+      color: #283d3b;
+      transition: all .3s ease-in-out;
   }
