@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item">
                 Scott Lawan
@@ -28,17 +28,17 @@
                 <a class="navbar-item">
                     Home
                 </a>
-                <a class="navbar-item">
-                    About
+                <a href="#about" class="navbar-item">
+                    <span class="navbar-item-name">About</span>
                 </a>
-                <a class="navbar-item">
-                    Projects
+                <a href="#projects" class="navbar-item">
+                    <span class="navbar-item-name">Projects</span>
                 </a>
-                <a class="navbar-item">
-                    Resume
+                <a href="#experience" class="navbar-item">
+                    <span class="navbar-item-name">Experience</span>
                 </a>
-                <a class="navbar-item">
-                    Contact
+                <a href="#contact" class="navbar-item">
+                    <span class="navbar-item-name">Contact</span>
                 </a>
             </div>
         </div>
@@ -49,10 +49,10 @@
             <div class="hero-body">
                 <div class="container">
 
-                    <div class="block">
+                    <div class="block" id="about">
                         <div class="columns">
                             <div class="column is-one-quarter">
-                                <figure class="image">
+                                <figure class="image" id="profileImg">
                                     <img class="is-rounded" src="/assets/profile_IMG_3242.JPG">
 
                                 </figure>
@@ -94,7 +94,7 @@
                         </div>
                     </div>
 
-                    <div class="block">
+                    <div class="block" id="projects">
                         <div class="columns">
                             <div class="column is-one-quarter">
                                 <div class="content is-normal mt-6">
@@ -138,7 +138,7 @@
                         </div>
                     </div>
 
-                    <div class="block">
+                    <div class="block" id="experience">
                         <div class="columns">
                             <div class="column is-one-quarter">
                                 <div class="content is-normal mt-6">
@@ -182,7 +182,7 @@
                         </div>
                     </div>
 
-                    <div class="block">
+                    <div class="block" id="contact">
                         <div class="columns">
                             <div class="column is-one-quarter">
                                 <div class="content is-normal mt-6">
@@ -221,7 +221,7 @@
 
 
 
-
+    <!-- js for hamburger -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 
