@@ -3,17 +3,28 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
+#brandName {
+    font-size: 2rem;
+
+}
+
 .navbar, .footer {
     background-color: #b1a7a6;
 }
+
+/* background image */
 
 .blah {
     background: url(/assets/fabian_irsara_unsplash.jpg) fixed;
 }
 
+/* profile image */
+
 #profileImg {
     filter: grayscale(40%);
 }
+
+/* contact buttons */
 
 li {
     float: left;
