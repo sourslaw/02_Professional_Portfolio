@@ -1,0 +1,15 @@
+body {
+    background-color: #9a8c98;
+}
+
+.navbar, .footer {
+    background-color: #b1a7a6;
+}
+
+.blah {
+    background: url(/assets/fabian_irsara_unsplash.jpg) fixed;
+}
+
+#profileImg {
+    filter: grayscale(40%);
+}
