@@ -67,14 +67,14 @@ li {
     float: left;
 }
 
-li a {
+#contactBits a {
     color: #f2f4f3;
     text-align: center;
     padding: 10px;
     text-decoration: none;
   }
 
-  li a:hover {
+  #contactBits a:hover {
       color: #283d3b;
       transition: all .3s ease-in-out;
   }
