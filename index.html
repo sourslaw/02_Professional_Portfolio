@@ -12,17 +12,16 @@
         href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Playfair+Display:wght@700&family=Roboto&display=swap"
         rel="stylesheet">
     <!-- bulma cdn -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link href="./assets/all.css" rel="stylesheet">
-
+    <!-- css stylesheet -->
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
+    <!-- navigation -->
     <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" id="brandName">
@@ -55,12 +54,12 @@
             </div>
         </div>
     </nav>
-
+    <!-- main body -->
     <div class="blah">
         <div class="hero is-fullheight">
             <div class="hero-body">
                 <div class="container">
-
+                    <!-- about -->
                     <div class="block" id="about">
                         <div class="columns">
                             <div class="column is-one-quarter">
@@ -104,7 +103,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- projects -->
                     <div class="block" id="projects">
                         <div class="columns">
                             <div class="column is-one-third">
@@ -177,7 +176,7 @@
 
                         </div>
                     </div>
-
+                    <!-- experience -->
                     <div class="block" id="experience">
                         <div class="columns">
                             <div class="column is-one-quarter">
@@ -188,28 +187,32 @@
                             <div class="column">
                                 <div class="content is-normal m-6">
                                     <h3>Web Developer</h3>
-                                    <h4>placeholder</h4>
+                                    <h4>company placeholder</h4>
+                                    <h5>dates placeholder</h5>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vero repellat
                                         itaque doloremque provident, numquam corporis deserunt in distinctio, eligendi
                                         possimus obcaecati dolore autem quos aspernatur ad ratione! Quod, iure!
                                     </p>
                                     <h3>Digital Preservation Manager</h3>
-                                    <h4>placeholder</h4>
+                                    <h4>company placeholder</h4>
+                                    <h5>dates placeholder</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, esse facere.
                                         Debitis repellat harum modi laudantium culpa totam voluptatem mollitia ipsa
                                         illum, molestiae perspiciatis, eius voluptatibus facilis. Quaerat, tempora
                                         veniam?
                                     </p>
                                     <h3>Digital Archivist</h3>
-                                    <h4>placeholder</h4>
+                                    <h4>company placeholder</h4>
+                                    <h5>dates placeholder</h5>
                                     <p>
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem quo nostrum
                                         odio fuga magni quae officiis dolorum, cumque eligendi inventore consequuntur
                                         totam, facilis eveniet ipsam molestias eaque incidunt repellat commodi!
                                     </p>
                                     <h3>Digital Archivist</h3>
-                                    <h4>placeholder</h4>
+                                    <h4>company placeholder</h4>
+                                    <h5>dates placeholder</h5>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit
                                         blanditiis mollitia. Vitae, blanditiis nisi? Repellendus, nisi voluptas. Maiores
@@ -219,7 +222,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- contact -->
                     <div class="block" id="contact">
                         <div class="columns">
                             <div class="column is-one-quarter">
@@ -261,7 +264,7 @@
             </div>
         </div>
     </div>
-
+    <!-- footer -->
     <footer class="footer">
         <div class="content has-text-centered">
             <p>
@@ -274,25 +277,19 @@
 
 
 
-
     <!-- js for hamburger -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-
             // Get all "navbar-burger" elements
             const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
             // Check if there are any navbar burgers
             if ($navbarBurgers.length > 0) {
-
                 // Add a click event on each of them
                 $navbarBurgers.forEach(el => {
                     el.addEventListener('click', () => {
-
                         // Get the target from the "data-target" attribute
                         const target = el.dataset.target;
                         const $target = document.getElementById(target);
-
                         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
                         el.classList.toggle('is-active');
                         $target.classList.toggle('is-active');
@@ -303,8 +300,8 @@
 
         });
     </script>
+    <!-- js for fa -->
     <script defer src="/assets/all.js"></script>
-
 </body>
 
 </html>
