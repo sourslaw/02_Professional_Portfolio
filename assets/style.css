@@ -35,7 +35,7 @@ a.navbar-item:hover {
 /* background image */
 
 .blah {
-    background: url(/assets/fabian_irsara_unsplash.jpg) fixed;
+    background: url(./fabian_irsara_unsplash.jpg) fixed;
 }
 
 /* profile image */
