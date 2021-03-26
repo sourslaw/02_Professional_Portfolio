@@ -39,7 +39,7 @@ a.navbar-item:hover {
 }
 /* pseduo class for background image opacity control */
 .blah::before {
-    content: '';
+    content: "";
     background: url(./fabian_irsara_unsplash.jpg);
     position: absolute;
     opacity: 50%;
@@ -69,7 +69,7 @@ a.navbar-item:hover {
 
 /* contact buttons */
 
-li {
+#contact li {
     float: left;
 }
 
