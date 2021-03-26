@@ -1,3 +1,5 @@
+/* general */
+
 body {
     background-color: #9a8c98;
     font-family: 'Comfortaa', cursive;
@@ -32,30 +34,18 @@ a.navbar-item:hover {
     background-color: #b1a7a6;
 }
 
-/* background image */
+/* background image. by Fabian Irsara: https://unsplash.com/photos/_SwLdgVGfVY */
 
 .blah {
-    position: relative;
-}
-/* pseduo class for background image opacity control */
-.blah::before {
-    content: "";
-    background: url(./fabian_irsara_unsplash.jpg);
-    position: absolute;
-    opacity: 45%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    background: url(./fabian_irsara_unsplash_b.jpg) fixed;
 }
 
 /* profile image */
 
 #profileImg {
-    filter: grayscale(40%);
+    filter: grayscale(50%);
     margin-bottom: 5%;
 }
-
 
 /* projects section */
 
