@@ -35,7 +35,18 @@ a.navbar-item:hover {
 /* background image */
 
 .blah {
-    background: url(./fabian_irsara_unsplash.jpg) fixed;
+    position: relative;
+}
+/* pseduo class for background image opacity control */
+.blah::before {
+    content: '';
+    background: url(./fabian_irsara_unsplash.jpg);
+    position: absolute;
+    opacity: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
 
 /* profile image */
@@ -72,4 +83,12 @@ li {
   #contactBits a:hover {
       color: #283d3b;
       transition: all .3s ease-in-out;
+  }
+
+  /* reverse projects column stack for mobile */
+  @media(max-width: 768px) { 
+    .reverse-columns {
+      flex-direction: column-reverse;
+      display: flex;
+    }
   }
