@@ -15,4 +15,4 @@
 - Clicked images of the developer's applications take the employer to the deployed application
 - When resizing the page or viewing the site on various screens and devices, the employer is presented with a responsive layout that adapts to their viewport
 
-### Deployed application will be available soon . . .
+### Deployed application may be seen: [here](https://sourslaw.github.io/02_Professional_Portfolio/)
