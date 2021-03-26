@@ -42,7 +42,7 @@ a.navbar-item:hover {
     content: "";
     background: url(./fabian_irsara_unsplash.jpg);
     position: absolute;
-    opacity: 50%;
+    opacity: 40%;
     top: 0px;
     right: 0px;
     bottom: 0px;
