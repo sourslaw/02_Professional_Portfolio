@@ -42,16 +42,11 @@ a.navbar-item:hover {
 
 #profileImg {
     filter: grayscale(40%);
+    margin-bottom: 5%;
 }
 
 
 /* projects section */
-
-/* #projects h3:hover {
-    cursor: pointer;
-    color: white;
-    transition: all .5s ease-in-out;
-} */
 
 #projectsImage:hover {
     border: solid white;
