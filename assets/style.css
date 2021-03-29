@@ -5,7 +5,9 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
     text-decoration: none;
     color: #333533;
 }
@@ -14,6 +16,7 @@ a:hover {
     color: white;
     transition: all .5s ease-in-out;
 }
+
 
 /* navigation */
 
@@ -26,24 +29,25 @@ a.navbar-item:hover {
 #navBits a:hover {
     transform: scale(1.25);
     transition: all .5s ease-in-out;
-
 }
 
 #brandName {
     font-size: 2rem;
     font-weight: bold;
-
 }
 
-.navbar, .footer {
+.navbar,
+.footer {
     background-color: #b1a7a6;
 }
+
 
 /* background image. by Fabian Irsara: https://unsplash.com/photos/_SwLdgVGfVY */
 
 .blah {
     background: url(./fabian_irsara_unsplash_b.jpg) fixed;
 }
+
 
 /* profile image */
 
@@ -52,15 +56,16 @@ a.navbar-item:hover {
     margin-bottom: 5%;
 }
 
+
 /* projects section */
 
 #projectsImage:hover {
     border: solid white;
     transform: scale(1.1);
     transition: all .9s ease-in-out;
-    
     filter: drop-shadow(3px 3px 4px #55828b);
 }
+
 
 /* contact buttons */
 
@@ -75,6 +80,7 @@ a.navbar-item:hover {
     text-decoration: none;
 }
 
+
 /* #contactBits a:hover {
     color: #283d3b;
     transition: all .3s ease-in-out;
@@ -84,15 +90,14 @@ a.navbar-item:hover {
     color: #283d3b;
     transition: all .5s ease-in-out;
     transform: scale(1.35);
-
 }
 
 
+/* reverse projects column stack for mobile */
 
-  /* reverse projects column stack for mobile */
-@media(max-width: 768px) { 
+@media(max-width: 768px) {
     .reverse-columns {
-    flex-direction: column-reverse;
-    display: flex;
+        flex-direction: column-reverse;
+        display: flex;
     }
 }

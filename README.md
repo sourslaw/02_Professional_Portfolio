@@ -1,7 +1,10 @@
 # 02 Professional Portfolio
 
 ## Description
-- This is a webpage . . .
+
+- This is a webpage for Scott Lawan. 
+
+![alt text](assets/images/screenshot.png)
 
 ### The User Story for this project is as follows:
 - An employer would like to view a potential employee's deployed portfolio of work samples so that they can review samples of their work and assess whether they're a good candidate for an open position
