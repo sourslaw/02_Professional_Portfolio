@@ -56,16 +56,32 @@ a.navbar-item:hover {
     margin-bottom: 5%;
 }
 
-
 /* projects section */
-
-#projectsImage:hover {
+/* #projectsImage:hover {
     border: solid white;
     transform: scale(1.1);
     transition: all .9s ease-in-out;
     filter: drop-shadow(3px 3px 4px #55828b);
+} */
+
+/* new: cards for PROJECTS section */
+
+.card .content {
+    /* opacity: 50%; */
+    background-color: #f2f4f3;
 }
 
+.card:hover {
+    border: solid white;
+    transform: scale(1.025);
+    transition: all .9s ease-in-out;
+    filter: drop-shadow(3px 3px 5px #b7b7a4);
+}
+
+.content {
+    /* margin: 7px; */
+    padding: 15px;
+}
 
 /* contact buttons */
 
