@@ -17,7 +17,6 @@ a:hover {
     transition: all .5s ease-in-out;
 }
 
-
 /* navigation */
 
 a.navbar-item:hover {
@@ -41,13 +40,11 @@ a.navbar-item:hover {
     background-color: #b1a7a6;
 }
 
-
 /* background image. by Fabian Irsara: https://unsplash.com/photos/_SwLdgVGfVY */
 
 .blah {
     background: url(./fabian_irsara_unsplash_b.jpg) fixed;
 }
-
 
 /* profile image */
 
