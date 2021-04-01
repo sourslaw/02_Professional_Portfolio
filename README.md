@@ -1,8 +1,8 @@
-# 02 Professional Portfolio
+# Scott Lawan Professional Portfolio
 
 ## Description
 
-- This is a webpage for Scott Lawan. 
+- This is a professional portfolio webpage for the web developer Scott Lawan
 
 ![alt text](assets/images/screenshot.png)
 
