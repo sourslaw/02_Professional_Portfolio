@@ -56,14 +56,6 @@ a.navbar-item:hover {
     margin-bottom: 5%;
 }
 
-/* projects section */
-/* #projectsImage:hover {
-    border: solid white;
-    transform: scale(1.1);
-    transition: all .9s ease-in-out;
-    filter: drop-shadow(3px 3px 4px #55828b);
-} */
-
 /* new: cards for PROJECTS section */
 
 .card .content {
@@ -79,7 +71,6 @@ a.navbar-item:hover {
 }
 
 .content {
-    /* margin: 7px; */
     padding: 15px;
 }
 
@@ -96,24 +87,8 @@ a.navbar-item:hover {
     text-decoration: none;
 }
 
-
-/* #contactBits a:hover {
-    color: #283d3b;
-    transition: all .3s ease-in-out;
-} */
-
 .fa-3x:hover {
     color: #283d3b;
     transition: all .5s ease-in-out;
     transform: scale(1.35);
-}
-
-
-/* reverse projects column stack for mobile */
-
-@media(max-width: 768px) {
-    .reverse-columns {
-        flex-direction: column-reverse;
-        display: flex;
-    }
 }
