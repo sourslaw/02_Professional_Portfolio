@@ -18,4 +18,10 @@
 - Clicked images of the developer's applications take the employer to the deployed application
 - When resizing the page or viewing the site on various screens and devices, the employer is presented with a responsive layout that adapts to their viewport
 
+### License
+
+- Copyright (c) Scott Lawan. All rights reserved.
+- Licensed under the [MIT](https://opensource.org/licenses/mit-license.php) license.
+
+
 ### Deployed application may be seen: [here](https://sourslaw.github.io/02_Professional_Portfolio/)
