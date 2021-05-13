@@ -1,5 +1,11 @@
 console.log('hi from js')
 
+const about = {
+	about: "I am an information professional and web developer. I seek to deploy pleasing and thoughtful tools to improve efficienty and ease work with a mix of fun and mystery.",
+	experience: "I have a Master's in Information Science and am currently engaged in a web development bootcamp. Previously, I've worked as a digital archivist and digital preservation manager for state governments and universities. I have extensive experience processing and managing large scale historical digital colletions and their asociated databases.",
+	skills: "I am applying Agile methodology to learning a full stack comprised of JavaScript, HTML, CSS, Express, React, Node, MongoDB, and MySQL. I seek to produce, neat, accessible, and well documented code."
+};
+
 const projects = [
 	{
 		title: 'a title',
@@ -79,10 +85,28 @@ const contact = [
 ];
 
 
-
+const aboutDisplayHole = document.getElementById('aboutDisplay');
 const projectsDisplayHole = document.getElementById('projectsDisplay');
 const experienceDisplayHole = document.getElementById('experienceDisplay');
 const contactDisplayHole = document.getElementById('contactDisplay');
+
+function aboutDisplay(about) {
+
+	const aboutM = document.createElement('h2');
+	aboutM.innerText = 'about';
+	const aboutP = document.createElement('p');
+	aboutP.innerText = `${about.about}`;
+	const about2 = document.createElement('h2');
+	about2.innerText = 'experience';
+	const aboutP2 = document.createElement('p');
+	aboutP2.innerText = `${about.experience}`;
+	const about3 = document.createElement('h2');
+	about3.innerText = 'skills';
+	const aboutP3 = document.createElement('p');
+	aboutP3.innerText = `${about.skills}`;
+
+	aboutDisplayHole.append(aboutM, aboutP, about2, aboutP2, about3, aboutP3)
+};
 
 function projectsDisplay(projects) {
 	for (i = 0; i < projects.length; i++) {
@@ -159,6 +183,7 @@ function contactDisplay(contact) {
 	};
 };
 
+aboutDisplay(about);
 projectsDisplay(projects);
 experienceDisplay(experience);
 contactDisplay(contact);
