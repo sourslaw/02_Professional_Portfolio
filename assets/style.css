@@ -1,5 +1,4 @@
 /* general */
-
 body {
     background-color: #9a8c98;
     font-family: 'Comfortaa', cursive;
@@ -18,7 +17,6 @@ a:hover {
 }
 
 /* navigation */
-
 a.navbar-item:hover {
     color: white;
     background-color: transparent;
@@ -40,21 +38,25 @@ a.navbar-item:hover {
     background-color: #b1a7a6;
 }
 
-/* background image. by Fabian Irsara: https://unsplash.com/photos/_SwLdgVGfVY */
+.footer {
+	height: 1em;
+}
 
+/* background image. by Fabian Irsara: https://unsplash.com/photos/_SwLdgVGfVY */
 .blah {
     background: url(images/fabian_irsara_unsplash_b.jpg) fixed;
 }
 
 /* profile image */
-
 #profileImg {
     filter: grayscale(50%);
     margin-bottom: 5%;
 }
 
 /* new: cards for PROJECTS section */
-/* placeholder image by Paul Hanaoka: https://unsplash.com/photos/UlH7n0c63iA */
+#projectsDisplay {
+	margin-top: 50px;
+}
 
 .card .content {
     /* opacity: 50%; */
@@ -72,21 +74,36 @@ a.navbar-item:hover {
     padding: 15px;
 }
 
-/* contact buttons */
+/* #experienceDisplay > #exId:first-child {
+	margin-top: 50px;
+} */
 
+/* contact buttons */
 #contact li {
-    float: left;
+	float: left;
+	margin: 5px;
 }
 
 #contactBits a {
     color: #f2f4f3;
     text-align: center;
-    padding: 10px;
-    text-decoration: none;
+    padding: 12px;
+	text-decoration: none;
 }
 
 .fa-3x:hover {
     color: #283d3b;
     transition: all .5s ease-in-out;
     transform: scale(1.35);
+}
+
+/* #contactDisplay > li {
+	margin: 5px;
+} */
+
+@media (max-width: 768px) {
+	#contactBits {
+		display: flex;
+		justify-content: center;
+	}
 }

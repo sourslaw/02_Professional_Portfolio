@@ -2,34 +2,40 @@ console.log('hi from js')
 
 const about = {
 	about: "I am an information professional and web developer. I seek to deploy pleasing and thoughtful tools to improve efficienty and ease work with a mix of fun and mystery.",
-	experience: "I have a Master's in Information Science and am currently engaged in a web development bootcamp. Previously, I've worked as a digital archivist and digital preservation manager for state governments and universities. I have extensive experience processing and managing large scale historical digital colletions and their asociated databases.",
+	experience: "I have a Master's in Information Science and am currently engaged in a web development bootcamp. Previously, I've worked as a digital archivist and digital preservation manager for state governments and universities. I have extensive experience processing and managing large scale historical digital collections and their associated databases.",
 	skills: "I am applying Agile methodology to learning a full stack comprised of JavaScript, HTML, CSS, Express, React, Node, MongoDB, and MySQL. I seek to produce, neat, accessible, and well documented code."
 };
 
 const projects = [
 	{
-		title: 'a title',
-		description: 'a description',
-		image: 'assets/images/paul_hanaoka_unsplash.jpg',
-		link: 'https://github.com/sourslaw'
+		title: 'Find A Beer',
+		description: '[Javascript] [various APIs] [Pure.css]',
+		image: 'https://github.com/sourslaw/Project_One/raw/main/assets/images/screenshot.png',
+		link: 'https://sourslaw.github.io/Project_One/'
 	},
 	{
-		title: 'a title',
-		description: 'a description',
-		image: 'assets/images/paul_hanaoka_unsplash.jpg',
-		link: 'https://github.com/sourslaw'
+		title: 'Weather Dashboard',
+		description: '[Javascript] [Bootstrap]',
+		image: 'https://github.com/sourslaw/06_Weather_Dashboard/raw/main/Assets/Images/screenshot.png',
+		link: 'https://sourslaw.github.io/06_Weather_Dashboard/'
 	},
 	{
-		title: 'a title',
-		description: 'a description',
-		image: 'assets/images/paul_hanaoka_unsplash.jpg',
-		link: 'https://github.com/sourslaw'
+		title: 'Javascript Quiz',
+		description: '[Javascript] [Bootstrap]',
+		image: 'https://github.com/sourslaw/04_Code_Quiz/raw/main/assets/images/screenshot.png',
+		link: 'https://sourslaw.github.io/04_Code_Quiz/'
 	},
 	{
-		title: 'a title',
-		description: 'a description',
-		image: 'assets/images/paul_hanaoka_unsplash.jpg',
-		link: 'https://github.com/sourslaw'
+		title: 'Password Generator',
+		description: '[Javascript] [Bootstrap]',
+		image: 'https://github.com/sourslaw/03_Password_Generator/raw/main/assets/images/screenshot.png',
+		link: 'https://sourslaw.github.io/03_Password_Generator/'
+	},
+	{
+		title: "Rocky's Cheese Blaster",
+		description: '[Scratch]',
+		image: 'assets/images/prj_rcb_ss copy.png',
+		link: 'https://scratch.mit.edu/projects/485891163/'
 	}
 ];
 
@@ -150,11 +156,12 @@ function experienceDisplay(experience) {
 
 		const content = document.createElement('div');
 		content.setAttribute('class', 'content mt-6');
-		const hThree = document.createElement('h3');
+		content.setAttribute('id','exId')
+		const hThree = document.createElement('h5');
 		hThree.innerText = `${experience[i].what}`;
-		const hFour = document.createElement('h3');
+		const hFour = document.createElement('h5');
 		hFour.innerText = `${experience[i].where}`;
-		const hFive = document.createElement('h3');
+		const hFive = document.createElement('h4');
 		hFive.innerText = `${experience[i].when}`;
 
 		content.append(hFive);
@@ -172,6 +179,7 @@ function contactDisplay(contact) {
 		
 		const aContact = document.createElement('a');
 		aContact.setAttribute('href',`${contact[i].link}`);
+		aContact.setAttribute('target', '_blank');
 
 		const iElement = document.createElement('i');
 		iElement.setAttribute('class', `${contact[i].symbol}`)
