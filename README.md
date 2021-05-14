@@ -23,7 +23,7 @@
 - Deployed application may be seen: [here](https://sourslaw.github.io/02_Professional_Portfolio/)
 
 ### Credits
-- The project was built using [bulma](https://bulma.io/)
+- [Bulma](https://bulma.io/)
 
 ### License
 - Copyright (c) Scott Lawan. All rights reserved.
