@@ -1,7 +1,7 @@
 console.log('hi from js')
 
 const about = {
-	about: "I am an information professional and web developer. I seek to deploy pleasing and thoughtful tools to improve efficienty and ease work with a mix of fun and mystery.",
+	about: "I am a creative and passionate information professional and software developer. I am seeking to grow my skill set through new challenges and the creation of thoughtful tools for thoughtful use.",
 	experience: "I have a Master's in Information Science and am currently engaged in a web development bootcamp. Previously, I've worked as a digital archivist and digital preservation manager for state governments and universities. I have extensive experience processing and managing large scale historical digital collections and their associated databases.",
 	skills: "I am applying Agile methodology to learning a full stack comprised of JavaScript, HTML, CSS, Express, React, Node, MongoDB, and MySQL. I seek to produce, neat, accessible, and well documented code."
 };
@@ -111,7 +111,7 @@ function aboutDisplay(about) {
 	const aboutP3 = document.createElement('p');
 	aboutP3.innerText = `${about.skills}`;
 
-	aboutDisplayHole.append(aboutM, aboutP, about2, aboutP2, about3, aboutP3)
+	aboutDisplayHole.append(aboutM, aboutP, about3, aboutP3)
 };
 
 function projectsDisplay(projects) {
