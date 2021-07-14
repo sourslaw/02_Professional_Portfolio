@@ -8,6 +8,18 @@ const about = {
 
 const projects = [
 	{
+		title: "Blog",
+		description: '[MySql] [Express] [Handlebars] [Node]',
+		image: 'https://github.com/sourslaw/Technology_Blog/blob/main/assets/images/screenshot.png?raw=true',
+		link: 'https://salty-plateau-85850.herokuapp.com/'
+	},
+	{
+		title: 'Poké Pound',
+		description: '[MySql] [Express] [Handlebars] [Node]',
+		image: 'https://user-images.githubusercontent.com/77472152/125383002-8e09ee80-e34b-11eb-8c03-284b0052976a.png',
+		link: 'https://pokemonstore1.herokuapp.com/'
+	},
+	{
 		title: 'Find A Beer',
 		description: '[Javascript] [various APIs] [Pure.css]',
 		image: 'https://github.com/sourslaw/Project_One/raw/main/assets/images/screenshot.png',
@@ -18,24 +30,6 @@ const projects = [
 		description: '[Javascript] [Bootstrap]',
 		image: 'https://github.com/sourslaw/06_Weather_Dashboard/raw/main/Assets/Images/screenshot.png',
 		link: 'https://sourslaw.github.io/06_Weather_Dashboard/'
-	},
-	{
-		title: 'Javascript Quiz',
-		description: '[Javascript] [Bootstrap]',
-		image: 'https://github.com/sourslaw/04_Code_Quiz/raw/main/assets/images/screenshot.png',
-		link: 'https://sourslaw.github.io/04_Code_Quiz/'
-	},
-	{
-		title: 'Password Generator',
-		description: '[Javascript] [Bootstrap]',
-		image: 'https://github.com/sourslaw/03_Password_Generator/raw/main/assets/images/screenshot.png',
-		link: 'https://sourslaw.github.io/03_Password_Generator/'
-	},
-	{
-		title: "Rocky's Cheese Blaster",
-		description: '[Scratch]',
-		image: 'assets/images/prj_rcb_ss copy.png',
-		link: 'https://scratch.mit.edu/projects/485891163/'
 	}
 ];
 
